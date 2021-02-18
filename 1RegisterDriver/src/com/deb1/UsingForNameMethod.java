@@ -9,7 +9,7 @@ import java.sql.Statement;
 public class UsingForNameMethod {
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 
-		Class.forName("oracle.jdbc.driver.OracleDriver");
+		//Class.forName("oracle.jdbc.driver.OracleDriver");
 
 		Connection conn = DriverManager.getConnection("jdbc:oracle:thin:1521:orcl", "scott", "tiger");
 
